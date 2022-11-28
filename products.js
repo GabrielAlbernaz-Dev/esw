@@ -30,5 +30,11 @@ function listar() {
     })
 }
 
+function listar_por_categoria(categoria) {
+    const produtosCategoria = produtos.filter(p => p.categoria === categoria);
+    console.log(produtosCategoria);
+}
+
+
 
 
