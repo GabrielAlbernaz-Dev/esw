@@ -36,6 +36,12 @@ function listar_por_categoria(categoria) {
     console.log(produtosCategoria);
 }
 
+// Função lista por valor
+function listar_por_valor(valor) {
+    const produtosPreco = produtos.filter(p => p.valor === valor);
+    console.log(produtosPreco);
+}
+
 
 
 
